@@ -14,8 +14,8 @@ class ThirdLesson {
     static Random random = new Random();
 
     public static void main(String[] args) {
-        System.out.println(LenArray(5,6));
-
+        System.out.println(Arrays.toString(arr5(int len = 5, int initialvalue = 6);
+        }
         //  Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
     //  С помощью цикла и условия заменить 0 на 1, 1 на 0;
         int[] arr1 = {0, 1, 1, 0, 0, 1, 0, 1};
@@ -54,12 +54,9 @@ class ThirdLesson {
 
     //Написать метод, принимающий на вход два аргумента: len и initialValue, и возвращающий одномерный массив типа int
     // длиной len, каждая ячейка которого равна initialValue;
-        static int[] LenArray(int len, int initialValue) {
             int arr5[] = new int[len];
             for (int i = 0; i < arr5.length; i++) {
                 arr5[i] = i + initialValue;
             }
             return arr5;
-        }
-
-}
+            }                               
