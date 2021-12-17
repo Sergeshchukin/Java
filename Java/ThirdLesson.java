@@ -15,8 +15,7 @@ public class ThirdLesson {
         fillArr1(arr1);
         System.out.println(Arrays.toString(arr1));
 
-        int[] arr2;
-        arr2 = new int[100];
+        int[] arr2 = new int[100];
         fillArray2(arr2);
         System.out.println(Arrays.toString(arr2);
 
