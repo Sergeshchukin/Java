@@ -13,7 +13,7 @@ public class ThirdLesson {
 //1
         int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         InvertArr(arr);
-        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr));
 //2
         int[] array;
         array = int[100];
