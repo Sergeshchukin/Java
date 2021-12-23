@@ -32,7 +32,7 @@ class FiveLesson {
 		persArray[4] = new Person("Ivanov Sergey", "Engineer", "ivsergey@mailbox.com", "892311010", "20000", 40);
 		for (int i = 0; i < persArray.length; i++) {
 			if (persArray[i].getAge() > 40) {
-				persArray[i].toString();
+				System.out.println(persArray[i].toString());
 			}
 		}
 	}
