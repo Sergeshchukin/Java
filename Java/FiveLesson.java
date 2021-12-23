@@ -28,8 +28,8 @@ class FiveLesson {
 		persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", "30000", 30);
 		persArray[1] = new Person("Ivanov Petr", "Engineer", "ivpetr@mailbox.com", "892313636", "40000", 45);
 		persArray[2] = new Person("Ivanov Maxim", "Engineer", "ivmaxim@mailbox.com", "8923134343", "50000", 50);
-		persArray[4] = new Person("Ivanov Nikolay", "Engineer", "ivnikolay@mailbox.com", "89231231212", "100000", 29);
-		persArray[5] = new Person("Ivanov Sergey", "Engineer", "ivsergey@mailbox.com", "892311010", "20000", 40);
+		persArray[3] = new Person("Ivanov Nikolay", "Engineer", "ivnikolay@mailbox.com", "89231231212", "100000", 29);
+		persArray[4] = new Person("Ivanov Sergey", "Engineer", "ivsergey@mailbox.com", "892311010", "20000", 40);
 		for (int i = 0; i < persArray.length; i++) {
 			if (persArray[i].getAge() > 40) {
 				persArray[i].toString();
