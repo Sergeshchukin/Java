@@ -1,7 +1,7 @@
 /*
 *
 *  @author Sergey Shchukin
-*  @version 30.12.2021
+*  @version 03.01.2022
 *
 */
 
@@ -45,7 +45,6 @@ public class SixLesson {
         public static int countAnimal = 0;
 
         void move() {
-
             if (maxMove <= 0)
                 System.out.println(name + " cant run");
             else if (maxMove >= obstacles)
@@ -67,7 +66,6 @@ public class SixLesson {
 
     public class Cat extends Animal {
         Cat(String name, String color, int age, int obstacles) {
-
             super(name, color, age, obstacles);
             this.maxMove = 500;
             this.maxDrift = 2;
@@ -80,7 +78,6 @@ public class SixLesson {
 
     public class Dog extends Animal {
         Dog(String name, String color, int age, int obstacles) {
-
             super(name, color, age, obstacles);
             this.maxMove = 500;
             this.maxDrift = 10;
@@ -89,5 +86,4 @@ public class SixLesson {
 
         static int countDog = 0;
     }
-
 }
